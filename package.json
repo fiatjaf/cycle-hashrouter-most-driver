@@ -1,0 +1,20 @@
+{
+  "name": "hashrouter-most-driver",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiatjaf/cycle-hashrouter-most-driver.git"
+  },
+  "keywords": ["cycle.js", "cycle", "cyclejs", "most", "driver", "hash", "router", "hashrouter"],
+  "author": "Giovanni T. Parra",
+  "dependencies": {
+    "@most/create": "*"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiatjaf/cycle-hashrouter-most-driver/issues"
+  },
+  "homepage": "https://github.com/fiatjaf/cycle-hashrouter-most-driver#readme"
+}
