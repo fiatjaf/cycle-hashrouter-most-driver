@@ -1,7 +1,7 @@
 {
-  "name": "hashrouter-most-driver",
+  "name": "cycle-hashrouter-most-driver",
   "version": "0.0.1",
-  "description": "",
+  "description": "A simple hash-router to be used with Cycle's most-run",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -16,5 +16,5 @@
   "bugs": {
     "url": "https://github.com/fiatjaf/cycle-hashrouter-most-driver/issues"
   },
-  "homepage": "https://github.com/fiatjaf/cycle-hashrouter-most-driver#readme"
+  "homepage": "https://github.com/fiatjaf/cycle-hashrouter-most-driver"
 }
