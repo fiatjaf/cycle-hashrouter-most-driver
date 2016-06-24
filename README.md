@@ -16,7 +16,7 @@ import most from 'most'
 import hold from '@most/hold'
 import Cycle from '@cycle/most-run'
 import {makeDOMDriver, h} from '@motorcycle/dom'
-import hashRouterDriver from './hash-router-driver'
+import hashRouterDriver from 'cycle-hashrouter-most-driver'
 
 Cycle.run(app, {
   DOM: makeDOMDriver('#container', [
@@ -44,7 +44,7 @@ function app ({DOM, ROUTER}) {
 
   return {
     DOM: vtree$,
-    ROUTER: most.of('/item/2143').delay(10000)
+    ROUTER: most.of('/item/2143').delay(2000)
   }
 }
 ```

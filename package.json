@@ -1,6 +1,7 @@
 {
   "name": "cycle-hashrouter-most-driver",
-  "version": "0.0.1",
+  "sourceType": "module",
+  "version": "0.0.2",
   "description": "A simple hash-router to be used with Cycle's most-run",
   "main": "index.js",
   "repository": {
@@ -8,6 +9,22 @@
     "url": "git+https://github.com/fiatjaf/cycle-hashrouter-most-driver.git"
   },
   "keywords": ["cycle.js", "cycle", "cyclejs", "most", "driver", "hash", "router", "hashrouter"],
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "11.0.1"
+  },
   "author": "Giovanni T. Parra",
   "dependencies": {
     "@most/create": "*"
