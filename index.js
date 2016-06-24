@@ -47,6 +47,8 @@ export default function hashRouterDriver (href$) {
 }
 
 function parse (href = location.hash.slice(1)) {
+  if (!href) href = '/'
+
   let [path, qs] = href.split('?')
   var value = {}
 
