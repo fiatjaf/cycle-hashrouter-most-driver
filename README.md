@@ -1,4 +1,4 @@
-This is a driver for all your [pure-most Cycle apps](https://github.com/cyclejs/most-run) (think[Motorcycle](https://github.com/motorcyclejs/core#merging-with-cyclejs)) that needs a router only for the client.
+This is a driver for all your [pure-most Cycle apps](https://github.com/cyclejs/most-run) (think [Motorcycle](https://github.com/motorcyclejs/core#merging-with-cyclejs)) that needs a router only for the client.
 
 It aims to be compatible with [cyclic-router](https://github.com/cyclejs-community/cyclic-router). The problem with this is that, besides being too bloated (with all the history package inside and plumbing), it focuses too much on server-side routing, so some glitches appears unexpectedly when you use the hash-router. Hash routers are arguably simpler, so I guess you can use this package if you don't need server-side routing.
 

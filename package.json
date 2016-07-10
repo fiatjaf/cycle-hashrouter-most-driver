@@ -1,7 +1,7 @@
 {
   "name": "cycle-hashrouter-most-driver",
   "sourceType": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple hash-router to be used with Cycle's most-run",
   "main": "index.js",
   "repository": {
@@ -18,6 +18,9 @@
     "presets": [
       "es2015"
     ]
+  },
+  "peerDependencies": {
+    "most": "*"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
