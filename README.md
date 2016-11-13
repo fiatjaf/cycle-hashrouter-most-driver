@@ -19,10 +19,7 @@ import {makeDOMDriver, h} from '@motorcycle/dom'
 import hashRouterDriver from 'cycle-hashrouter-most-driver'
 
 Cycle.run(app, {
-  DOM: makeDOMDriver('#container', [
-    require('snabbdom/modules/props'),
-    require('snabbdom/modules/style')
-  ]),
+  DOM: makeDOMDriver('#container'),
   ROUTER: hashRouterDriver
 })
 
